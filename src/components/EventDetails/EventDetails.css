@@ -1,0 +1,32 @@
+/* EventDetails.css */
+
+/* Container for the event details */
+.event-details-container {
+    margin-top: 60px; 
+    text-align: center; 
+    background-color: #f9f9f9; 
+  }
+  
+  /* Description of the event */
+  .event-description {
+    font-size: 18px; 
+    line-height: 2.0 ; 
+    margin-bottom: 20px; 
+  }
+  
+  /* Image gallery container */
+  .image-gallery {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 30px; 
+  }
+  
+  /* Individual images in the gallery */
+  .gallery-image {
+    width: 350px; 
+    height: 350px;
+    margin: 10px; 
+    object-fit: cover; 
+  }
+  

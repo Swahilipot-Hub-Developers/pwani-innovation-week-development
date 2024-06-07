@@ -31,36 +31,54 @@ const AboutSection = () => {
     };
   }, []);
   return (
-    <div className="container text-black">
-      <h3 className="section-heading text-center mb-3">
-        About Pwani Innovation Week
-      </h3>
-      <div className="section-intro single-col-max mx-auto mb-4">
-        Pwani Innovation Week is a consolidated effort by{" "}
-        <a
-          href="https://www.swahilipothub.co.ke/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Swahilipot Hub Foundation
-        </a>{" "}
-        and its partners to help create a widespread culture of innovation and
-        stimulate the innovation ecosystem in the coastal (pwani)region of
-        eastern Africa.
-        <br />
-        <br />
-        <p className="text-dark-500 font-semibold">
-          Pwani Innovation Week is aconsolidated effort by swahiliPot Hub
+    <>
+    {/* Cards */}
+    <div className="container content-space-1">
+     
+      
+      <div className="row mb-5 mb-md-0">
+        <div className="col-sm-6 col-lg-4 mb-3 mb-sm-5 mb-lg-7">
+          {/* Card */}
+          <div className="card card-lg h-100">
+            <div className="card-header bg-soft-primary-light position-relative overflow-hidden">
+             
+              <h5 className="card-title">About Pwani Innovation Week</h5>
+              <div className="position-absolute bottom-0 end-0">
+                
+              </div>
+            </div>
+            <div className="card-body">
+            
+              <p className="card-text">
+              Pwani Innovation Week is a consolidated effort by swahiliPot Hub
           Foundation and its partners to help create a widespread culture of
           innovation and stimulate the innovation ecosystem in the
           coastal(pwani)region of eastern Africa.
-        </p>
-        <div>
-          <h3 className="text-dark-500 font-bold text-center">
-            Thematic Areas{" "}
-          </h3>
+              </p>
+             
+            </div>
+            
+          </div>
+          {/* End Card */}
         </div>
-        <ul>
+        {/* End Col */}
+        <div className="col-sm-6 col-lg-4 mb-3 mb-sm-5 mb-lg-7">
+          {/* Card */}
+          <div className="card card-lg h-100">
+            <div className="card-header bg-soft-warning position-relative overflow-hidden">
+              
+              <div className="d-flex align-items-center mb-2">
+                <h5 className="card-title mb-0">Thematic Areas</h5>
+               
+              </div>
+              <div className="position-absolute top-0 end-0">
+               
+              </div>
+            </div>
+            <div className="card-body">
+              
+              {/* List Checked */}
+              <ul>
           <li>
             <strong>Emerging Tech and Innovation:</strong>This thematic areas
             will focus on insiring the exploration and adoptation of
@@ -86,10 +104,25 @@ const AboutSection = () => {
             and infrastructure.
           </li>
         </ul>
-      </div>
-      <div className="">
-        <h3 className="text-center font-bold">Objectives</h3>
-        <ol className="">
+              {/* End List Checked */}
+            </div>
+           
+          </div>
+          {/* End Card */}
+        </div>
+        {/* End Col */}
+        <div className="col-sm-6 col-lg-4 mb-3 mb-sm-5 mb-lg-7">
+          {/* Card */}
+          <div className="card card-lg h-100">
+            <div className="card-header bg-soft-success position-relative overflow-hidden">
+              
+              <h5 className="card-title">Objectives</h5>
+              <div className="position-absolute bottom-0 end-0">
+               
+              </div>
+            </div>
+            <div className="card-body">
+            <ul className="">
           <li>
             To showcase untapped innovation potential across Pwani by
             highlighting successful youth-led ventures.
@@ -105,48 +138,244 @@ const AboutSection = () => {
             Orange, Digital economies) and rich biodiversity to attract domestic
             and foreign investment.
           </li>
-        </ol>
+        </ul>
+             
+            </div>
+           
+          </div>
+          {/* End Card */}
+        </div>
+        {/* End Col */}
       </div>
+      {/* End Row */}
+     
+    </div>
+    {/* End Cards */}
 
-      {/* <!--//benefits-list--> */}
-      <div className="event-countdown text-center mb-3">
-        <h4 className="countdown-intro mb-2 text-center mb-3">
-          Pwani Innovation Week {year} Ends In:
-        </h4>
-        <div
-          id="countdown-box"
-          class="countdown-box"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <div className="countdown-item" style={{ margin: "5px 20px" }}>
-            <span className="number">{days}</span>
-            <br />
-            <span className="unit">Days</span>
+
+    
+  {/* FAQ */}
+  <div className="container content-space-1">
+    <div className="text-center">
+      <img
+        className="mb-5"
+        src="../assets/svg/illustrations/oc-looking-for-answers.svg"
+        alt="Illustration"
+        style={{ maxWidth: "15rem" }}
+      />
+    </div>
+    {/* Heading */}
+    <div className="w-lg-65 text-center mx-lg-auto mb-7">
+      <h3>Frequently Asked Questions</h3>
+    </div>
+    {/* End Heading */}
+    {/* Accordion */}
+    <div className="w-lg-85 mx-lg-auto mb-7">
+      <div className="accordion accordion-flush" id="accordionFAQEg1">
+        {/* Accordion Item */}
+        <div className="accordion-item">
+          <div className="accordion-header" id="headingOneEg1">
+            <a
+              className="accordion-button"
+              role="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOneEg1"
+              aria-expanded="true"
+              aria-controls="collapseOneEg1"
+            >
+              What methods of payments are supported?
+            </a>
           </div>
-          <div className="countdown-item" style={{ margin: "5px 20px" }}>
-            <span className="number">{hours}</span>
-            <br />
-            <span className="unit">Hrs</span>
-          </div>
-          <div className="countdown-item" style={{ margin: "5px 20px" }}>
-            <span className="number">{minutes}</span>
-            <br />
-            <span className="unit">Mins</span>
-          </div>
-          <div className="countdown-item" style={{ margin: "5px 20px" }}>
-            <span className="number">{seconds}</span>
-            <br />
-            <span className="unit">Secs</span>
+          <div
+            id="collapseOneEg1"
+            className="accordion-collapse collapse show"
+            aria-labelledby="headingOneEg1"
+            data-bs-parent="#accordionFAQEg1"
+          >
+            <div className="accordion-body">
+              You can purchase the themes on Bootstrap Themes via any major
+              credit/debit card (via Stripe) or with your Paypal account. We
+              don't support cryptocurrencies or invoicing at this time.
+            </div>
           </div>
         </div>
+        {/* End Accordion Item */}
+        {/* Accordion Item */}
+        <div className="accordion-item">
+          <div className="accordion-header" id="headingTwoEg1">
+            <a
+              className="accordion-button collapsed"
+              role="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwoEg1"
+              aria-expanded="false"
+              aria-controls="collapseTwoEg1"
+            >
+              Can I cancel at anytime?
+            </a>
+          </div>
+          <div
+            id="collapseTwoEg1"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingTwoEg1"
+            data-bs-parent="#accordionFAQEg1"
+          >
+            <div className="accordion-body">
+              If you'd like a refund please reach out to us at{" "}
+              <a href="#">themes@getbootstrap.com</a>. If you need technical
+              help with the theme before a refund please reach out to the seller
+              first and they can get in touch with us if they're unable to
+              resolve the issue.
+            </div>
+          </div>
+        </div>
+        {/* End Accordion Item */}
+        {/* Accordion Item */}
+        <div className="accordion-item">
+          <div className="accordion-header" id="headingThreeEg1">
+            <a
+              className="accordion-button collapsed"
+              role="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThreeEg1"
+              aria-expanded="false"
+              aria-controls="collapseThreeEg1"
+            >
+              How do I get a receipt for my purchase?
+            </a>
+          </div>
+          <div
+            id="collapseThreeEg1"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingThreeEg1"
+            data-bs-parent="#accordionFAQEg1"
+          >
+            <div className="accordion-body">
+              You'll receive an email from Bootstrap themes once your purchase
+              is complete.
+            </div>
+          </div>
+        </div>
+        {/* End Accordion Item */}
+        {/* Accordion Item */}
+        <div className="accordion-item">
+          <div className="accordion-header" id="headingFourEg1">
+            <a
+              className="accordion-button collapsed"
+              role="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFourEg1"
+              aria-expanded="false"
+              aria-controls="collapseFourEg1"
+            >
+              Which license do I need?
+            </a>
+          </div>
+          <div
+            id="collapseFourEg1"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingFourEg1"
+            data-bs-parent="#accordionFAQEg1"
+          >
+            <div className="accordion-body">
+              There are three license types - <a href="#">Standard</a>,{" "}
+              <a href="#">Multisite</a>, and <a href="#">Extended</a>. We've
+              provided the table below for a quick look at the difference
+              between the them, as well as a few examples of ways each license
+              could be used. If you'd like more of the nitty-gritty details you
+              can find them below and always feel free to reach out with any
+              questions you have at <a href="#">themes@getbootstrap.com</a>.
+            </div>
+          </div>
+        </div>
+        {/* End Accordion Item */}
+        {/* Accordion Item */}
+        <div className="accordion-item">
+          <div className="accordion-header" id="headingFiveEg1">
+            <a
+              className="accordion-button collapsed"
+              role="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFiveEg1"
+              aria-expanded="false"
+              aria-controls="collapseFiveEg1"
+            >
+              How do I get access to a theme I purchased?
+            </a>
+          </div>
+          <div
+            id="collapseFiveEg1"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingFiveEg1"
+            data-bs-parent="#accordionFAQEg1"
+          >
+            <div className="accordion-body">
+              If you lose the link for a theme you purchased, don't panic! We've
+              got you covered. You can login to your account, tap your avatar in
+              the upper right corner, and tap Purchases. If you didn't create a
+              login or can't remember the information, you can use our handy
+              Redownload page, just remember to use the same email you
+              originally made your purchases with.
+            </div>
+          </div>
+        </div>
+        {/* End Accordion Item */}
+        {/* Accordion Item */}
+        <div className="accordion-item">
+          <div className="accordion-header" id="headingSixEg1">
+            <a
+              className="accordion-button collapsed"
+              role="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSixEg1"
+              aria-expanded="false"
+              aria-controls="collapseSixEg1"
+            >
+              Upgrade License Type
+            </a>
+          </div>
+          <div
+            id="collapseSixEg1"
+            className="accordion-collapse collapse"
+            aria-labelledby="headingSixEg1"
+            data-bs-parent="#accordionFAQEg1"
+          >
+            <div className="accordion-body">
+              There may be times when you need to upgrade your license from the
+              original type you purchased and we have a solution that ensures
+              you can apply your original purchase cost to the new license
+              purchase.
+            </div>
+          </div>
+        </div>
+        {/* End Accordion Item */}
       </div>
-      {/* <!--//event-countdown--> */}
-      
     </div>
+    {/* End Accordion */}
+    {/* Info */}
+    <div className="text-center">
+      <p className="mb-0">Still have questions?</p>
+      <a className="link" href="../page-contacts.html">
+        Contact our friendly support team{" "}
+        <i className="bi-chevron-right small ms-1" />
+      </a>
+    </div>
+    {/* End Info */}
+  </div>
+  {/* End FAQ */}
+
+
+
+
+
+
+
+
+
+
+
+  </>
+  
   );
 };
 

@@ -1,6 +1,7 @@
 import Masthead from "../components/Home/Masthead";
+import Contact from "../components/Home/Contact";
 import Statsblock from "../components/Home/Statsblock";
-// import Speakers from "../components/Home/Speakers";
+ //import Speakers from "../components/Home/Speakers";
 // import Schedule from "../components/Home/Schedule";
 // import Ticketcards from "../components/Home/Ticketcards";
 // import Infosec from "../components/Home/Infosec";
@@ -12,6 +13,7 @@ const Home = () => {
       <Masthead />
       <Statsblock />
       <AboutHome />
+      <Contact />
       {/* <Speakers /> */}
       {/* <Schedule /> */}
       {/* <Ticketcards /> */}

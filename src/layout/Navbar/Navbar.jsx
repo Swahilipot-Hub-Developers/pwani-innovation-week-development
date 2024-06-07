@@ -58,9 +58,37 @@ function Navbar() {
             </div>
             <div className="navbar-btn order-lg-2 ms-2">
               <Link to="/" className="btn btn-secondary">
+                Home
+              </Link>
+            </div>
+
+            <div className="navbar-btn order-lg-2 ms-2">
+              <Link to="/" className="btn btn-secondary">
+                About Us
+              </Link>
+            </div>
+
+            <div className="site-logo">
+              <Link to="/">
+                <img className="logo-icon" src={logo} alt="logo" />
+              </Link>
+            </div>
+            <div className="navbar-btn order-lg-2 ms-2">
+              <Link to="/" className="btn btn-secondary">
                 Schedule
               </Link>
             </div>
+            <div className="site-logo">
+              <Link to="/">
+                <img className="logo-icon" src={logo} alt="logo" />
+              </Link>
+            </div>
+            <div className="navbar-btn order-lg-2 ms-2">
+              <Link to="/" className="btn btn-secondary">
+                Speakers
+              </Link>
+            </div>
+
             <div className="navbar-btn order-lg-2 ms-2">
               <div className="btn-group">
                 <button
@@ -98,13 +126,7 @@ function Navbar() {
               id="navigation"
               className="navbar-collapse collapse justify-content-lg-end me-lg-3"
             >
-              <ul className="nav navbar-nav">
-                <li className="nav-item">
-                  <Link to="/about" className="nav-link scrollto disabled">
-                    About
-                  </Link>
-                </li>
-              </ul>
+             
             </div>
           </nav>
         </div>

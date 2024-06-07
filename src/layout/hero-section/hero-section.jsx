@@ -1,18 +1,4 @@
-// import "../../assets/css/custom.css"
-// import "../../assets/css/theme.css"
-import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { EmailRounded } from "@mui/icons-material";
-import { PhoneAndroid } from "@mui/icons-material";
-//import { Link } from "@mui/material";
-import { Link } from 'react-router-dom';
-
-const Masthead = () => {
-  const year = new Date().getFullYear();
-  return (
-    <>
-    {/* Hero */}
-    <>
+<>
   {/* Hero */}
   <div className="content-space-b-3 content-space-b-md-4">
     <div className="bg-soft-primary-light">
@@ -21,10 +7,14 @@ const Masthead = () => {
           <div className="col-md-6 content-space-t-1 content-space-md-1">
             {/* Heading */}
             <div className="mb-7">
-            <h1 className="fw-dark">Pwani Innovation Week {year}</h1>
+              <h1 className="display-4 text-primary mb-3 mb-md-5">
+                <span className="text-warning">Extend —</span>
+                <br />
+                your reach
+              </h1>
               <p className="lead">
-              The Pwani We Desire: Youth, Culture, Peace and Innovation in the
-              Decade of Action.
+                One theme to find and build the right business, wherever you
+                are.
               </p>
             </div>
             {/* End Heading */}
@@ -33,7 +23,7 @@ const Masthead = () => {
               <div className="d-flex">
                 <div className="flex-shrink-0">
                   <span className="svg-icon svg-icon-sm text-primary">
-                    {/* @@include("../assets/vendor/duotone-icons/com/com006.svg") */}
+                    @@include("../assets/vendor/duotone-icons/com/com006.svg")
                   </span>
                 </div>
                 <div className="flex-grow-1 ms-4">
@@ -51,7 +41,7 @@ const Masthead = () => {
               <div className="d-flex">
                 <div className="flex-shrink-0">
                   <span className="svg-icon svg-icon-sm text-primary">
-                    {/* @@include("../assets/vendor/duotone-icons/gen/gen022.svg") */}
+                    @@include("../assets/vendor/duotone-icons/gen/gen022.svg")
                   </span>
                 </div>
                 <div className="flex-grow-1 ms-4">
@@ -108,7 +98,7 @@ const Masthead = () => {
                   <div
                     className="d-none d-md-block bg-img-center"
                     style={{
-                      backgroundImage: "url(../../event1.png)",
+                      backgroundImage: "url(../assets/img/225x355/img1.jpg)",
                       height: "22rem"
                     }}
                   />
@@ -144,11 +134,3 @@ const Masthead = () => {
   </div>
   {/* End Hero */}
 </>
-
-    {/* End Hero */}
-  </>
-  
-  );
-};
-
-export default Masthead;

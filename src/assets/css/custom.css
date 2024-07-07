@@ -27,3 +27,8 @@
     z-index: 1;
     color: white; /* Set the text color */
 }
+
+.bg-gray {
+    background-color: #808080; /* Adjust the grey color as needed */
+  }
+  

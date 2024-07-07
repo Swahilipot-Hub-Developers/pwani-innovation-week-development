@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import "../../assets/scss/theme.scss";
 import "../../assets/css/theme.css";
 import MailIcon from "@mui/icons-material/Mail";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import XIcon from '@mui/icons-material/X';
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
@@ -22,17 +22,17 @@ const Footer = () => {
               </a>
             </li>
             <li class="list-inline-item me-3">
-              <a href="#">
-                <TwitterIcon className="fa-fw" />
+              <a href="https://x.com/swahilipothub">
+                <XIcon className="fa-fw" />
               </a>
             </li>
             <li class="list-inline-item me-3">
-              <a href="#">
+              <a href="https://instagram.com/swahilipothub">
                 <InstagramIcon className="fa-fw" />
               </a>
             </li>
             <li class="list-inline-item me-0">
-              <a href="#">
+              <a href="https://www.youtube.com/@swahilipothubfoundation">
                 <YouTubeIcon className="fa-fw" />
               </a>
             </li>

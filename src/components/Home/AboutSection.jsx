@@ -45,16 +45,10 @@ const AboutSection = () => {
           Swahilipot Hub Foundation
         </a>{" "}
         and its partners to help create a widespread culture of innovation and
-        stimulate the innovation ecosystem in the coastal (pwani)region of
+        stimulate the innovation ecosystem in the Coastal (Pwani) region of
         eastern Africa.
         <br />
         <br />
-        <p className="text-dark-500 font-semibold">
-          Pwani Innovation Week is aconsolidated effort by swahiliPot Hub
-          Foundation and its partners to help create a widespread culture of
-          innovation and stimulate the innovation ecosystem in the
-          coastal(pwani)region of eastern Africa.
-        </p>
         <div>
           <h3 className="text-dark-500 font-bold text-center">
             Thematic Areas{" "}
@@ -87,9 +81,9 @@ const AboutSection = () => {
           </li>
         </ul>
       </div>
-      <div className="">
+      <div className="container mb-5">
         <h3 className="text-center font-bold">Objectives</h3>
-        <ol className="">
+        <ul className="">
           <li>
             To showcase untapped innovation potential across Pwani by
             highlighting successful youth-led ventures.
@@ -105,13 +99,13 @@ const AboutSection = () => {
             Orange, Digital economies) and rich biodiversity to attract domestic
             and foreign investment.
           </li>
-        </ol>
+        </ul>
       </div>
 
       {/* <!--//benefits-list--> */}
       <div className="event-countdown text-center mb-3">
         <h4 className="countdown-intro mb-2 text-center mb-3">
-          Pwani Innovation Week {year} Ends In:
+          Pwani Innovation Week {year} Starts In:
         </h4>
         <div
           id="countdown-box"

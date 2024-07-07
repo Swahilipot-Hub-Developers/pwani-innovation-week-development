@@ -32,14 +32,14 @@ const EventDetails = () => {
       ]
     },
     2022: {
-      description: "Pwani Innovation Week 2022 media launch of the 3rd Pwani Innovation week 2022. The launch will be officiated by ; Kenya National Chamber of Commerce, Department of Tade, Mombasa County and Swahilipot hub",
+      description: "Pwani Innovation Week 2022 media launch of the 3rd Pwani Innovation week 2022. The launch was officiated by ; Kenya National Chamber of Commerce, Department of Trade, Mombasa County and Swahilipot Hub",
       images: [
         "/images/2022/event1.jpg",
         "/images/2022/event2.jpg",
         "/images/2022/event3.jpg",
-        "/images/2020/event4.jpg",
-        "/images/2020/event5.jpg",
-        "/images/2020/event6.jpg",
+        //"/images/2020/event4.jpg",
+        //"/images/2020/event5.jpg",
+        //"/images/2020/event6.jpg",
       ]
     },
 
@@ -52,7 +52,7 @@ const EventDetails = () => {
   }
 
   return (
-    <div className="event-details-container">
+    <div className="px-4 py-5 event-details-container">
       <h2>Discover What Happened {year}</h2>
       <p className="event-description">{event.description}</p>
       <div className="image-gallery">

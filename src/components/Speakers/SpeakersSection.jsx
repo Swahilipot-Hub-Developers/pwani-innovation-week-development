@@ -4,12 +4,12 @@ import { speakers } from "../../data/constants";
 const SpeakerItem = ({ name, organization }) => {
   return (
     <div className="col-6 col-lg-3 mb-4">
-      <div className="card  rounded-6 shadow-lg bg-white overflow-hidden hover:animate-bounce hover:bg-orange-500 transition duration-500 ease-in-out">
-        <a
+      <div className="card rounded-6 shadow-lg bg-white overflow-hidden hover:animate-bounce hover:bg-orange-500 transition duration-500 ease-in-out">
+        {/*<a
           href="#modal-speaker-1"
           data-bs-toggle="modal"
           data-bs-target="#modal-speaker-1"
-        ></a>
+        ></a>*/}
         <div className="card-body">
           <h5 className="card-title mb-2">{name}</h5>
           <div className="card-text mb-3">

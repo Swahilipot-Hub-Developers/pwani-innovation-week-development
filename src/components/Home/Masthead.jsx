@@ -5,7 +5,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { EmailRounded } from "@mui/icons-material";
 import { PhoneAndroid } from "@mui/icons-material";
 //import { Link } from "@mui/material";
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 const Masthead = () => {
   const year = new Date().getFullYear();
@@ -34,7 +34,7 @@ const Masthead = () => {
               +254 715 752 908
             </p>
             <p className="button">
-              Book your tickect now !
+              Book your tickets now!
             </p>
           </div>
         </div>
